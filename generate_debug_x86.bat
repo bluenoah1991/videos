@@ -1,0 +1,1 @@
+gn gen --ide=vs2022 --winsdk="10.0.20348.0" out/chromium_debug_x86 --args="is_debug = true is_component_build = true enable_nacl = false target_cpu = \"x86\" proprietary_codecs = true ffmpeg_branding = \"Chrome\""
